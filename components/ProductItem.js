@@ -8,7 +8,7 @@ export default function ProductItem({ product }) {
       <Link href={`/product/${product?.slug}`}>
         <img
           src={product.image}
-          alt="product.image"
+          alt={product.name}
           className="rounded shadow"
         />
       </Link>
